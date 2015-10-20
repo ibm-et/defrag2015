@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <title>Video for Defrag 2015 Talk</title>
+  <style>
+  html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+  }
+  video {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+  }
+  </style>
+</head>
+<body>
+  <video id="player" controls autoplay></video>
+  <script>
+    var src = window.location.search.slice(1);
+    document.getElementById("player").setAttribute("src", "https://ibm.box.com/shared/static/"+src+".mp4");
+  </script>
+</body>
+</html>

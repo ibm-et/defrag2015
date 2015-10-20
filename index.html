@@ -1,0 +1,297 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>From Doodles to Dashboards: Notebooks as a Cloud Platform</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=792, user-scalable=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<link rel="stylesheet" href="shower/themes/ribbon/styles/screen.css">
+</head>
+<body class="list">
+	<header class="caption">
+		<h1>From Doodles to Dashboards: Notebooks as a Cloud Platform</h1>
+		<p>Peter Parente (<a href="http://twitter.com/parente" target="_blank">@parente</a>), Developer in <a href="http://blog.ibmjstart.net" target="_blank">IBM Cloud Emerging Technology</a></p>
+	</header>
+	<section class="slide cover" id="cover"><div>
+		<h2>From Doodles to Dashboards: Notebooks as a Cloud Platform</h2>
+		<p>Peter Parente (<a href="http://twitter.com/parente" target="_blank">@parente</a>), Developer in <a href="http://blog.ibmjstart.net" target="_blank">IBM Cloud Emerging Technology</a></p>
+		<style>
+			#cover {
+				background-color: #fff;
+				color:#000;
+			}
+			#cover h2 {
+				margin:125px 0 0;
+				text-align:center;
+				font-size:70px;
+			}
+			#cover p {
+				margin:10px 0 0;
+				text-align:center;
+				font-style:italic;
+				font-size:20px;
+			}
+			#cover p a {
+				color:#000;
+			}
+		</style>
+	</div></section>
+
+	<section class="slide" id="us"><div>
+		<h2>Hello!</h2>
+		<ul>
+			<li>I'm a member of the IBM Cloud Emerging Technology team</li>
+			<li>We innovate, incubate, and integrate disruptive tech</li>
+			<li>I'm here to talk about notebooks and why they're on our radar</li>
+		</ul>
+		<img src="images/history.png" alt="Timeline of ET projects"/>
+	</div></section>
+
+	<section class="slide" id="problem"><div>
+		<h2>Old problem, new in-roads</h2>
+		<figure>
+			<blockquote><p>We are drowning in data but thirsting for knowledge.</p></blockquote>
+		</figure>
+		<div class="right">
+			<img src="images/amplab-stack.png" alt="Diagram of the Berkeley Data Analytics Stack" /><br />
+			<span>e.g., <a href="https://amplab.cs.berkeley.edu/software/" target="_blank">Berkeley Data Analytics Stack</a> from <a href="https://amplab.cs.berkeley.edu/" target="_blank">AMPLab</a></span>
+		</div>
+		<ul>
+			<li>&check; Open analytics stacks</li>
+			<li>&check; Cost-effective cloud</li>
+			<li>&check; Data science training</li>
+			<li>UX to bring it all together?</li>
+		</ul>
+
+		<style>
+		#problem ul {
+			width: 50%;
+		}
+		#problem .right {
+			float: right;
+			width: 50%;
+			font-size: 8pt;
+			text-align: right;
+		}
+		#problem img {
+			border: 1px solid #eee;
+			width: 100%;
+		}
+		</style>
+	</div></section>
+
+	<section class="slide" id="notebook"><div>
+		<h2>Notebooks</h2>
+		<a target="_blank" href="https://github.com/ipython/ipywidgets/blob/master/examples/notebooks/Lorenz%20Differential%20Equations.ipynb"><img src="images/notebook-anatomy.png" alt="Screenshot of a notebook for exploring the Lorenz system of differential equations"/></a>
+		<div>
+			<p>Text<br />
+			+<br />
+			Code<br />
+			+<br />
+			Visualizations<br />
+			+<br />
+			Widgets<br />
+			+<br />
+			Compute<br />
+			+<br />
+			Data</p>
+		</div>
+
+		<style>
+		#notebook img {
+			float: right;
+			width: 55%;
+		}
+		#notebook p {
+			text-align: center;
+			line-height: 1.5em;
+		}
+		</style>
+	</div></section>
+
+	<section class="slide" id="jupyter"><div>
+		<h2>Project Jupyter (n&#233;e IPython)</h2>
+		<ul>
+			<li>"Open source, interactive data science and scientific computing"</li>
+			<li>Notebook authoring and related tools</li>
+			<li>Large, growing community and ecosystem</li>
+			<li>Open formats, protocols, APIs</li>
+		</ul>
+
+		<a href="https://jupyter.org" target="_blank"><img class="jupyter-community" src="images/jupyter-community.png" alt="Screenshot of the Jupyter community visualization from the Project Jupyter homepage" /></a>
+		<a href="https://nbviewer.jupyter.org" target="_blank"><img class="jupyter-nbviewer" src="images/jupyter-nbviewer.png" alt="Screenshot of the Jupyter nbviewer (notebook viewer) site" /></a>
+		<a href="https://gist.github.com/parente/facb555dfbae28e817e0" target="_blank"><img class="jupyter-notebook" src="images/jupyter-notebook.png" alt="Screenshot of a Jupyter notebook modeling the number of notebook files on GitHub" /></a>
+
+		<style>
+			#jupyter img.jupyter-notebook {
+				position: absolute;
+				bottom: -60px;
+				right: 10px;
+				height: 450px;
+			}
+
+			#jupyter img.jupyter-nbviewer {
+				position: absolute;
+				bottom: -160px;
+				right: 150px;
+				height: 450px;
+			}
+
+			#jupyter img.jupyter-community {
+				position: absolute;
+				bottom: -220px;
+				right: 350px;
+				height: 450px;
+			}
+		</style>
+	</div></section>
+
+	<section class="slide" id="frontier"><div>
+		<h2>Why such interest?</h2>
+		<figure>
+			<blockquote>
+				<p>"As the [on-demand] storage/compute functions become embedded, we’re seeing platforms emerging everywhere and all of the time. Drones are a new platform. Satellites are a new platform. Rockets are a new platform. Daily Fantasy Sports are a new *platform*. Med-tech is a new platform. Fin-tech is a new platform. The wired human being is a new platform."</p>
+			</blockquote>
+			<figcaption>Eric Norlin, <a href="http://defragcon.com/defrag-2015-platforms/" target="_blank">Defrag 2015: The Frontier of Platforms</a></figcaption>
+		</figure>
+	</div></section>
+
+	<section class="slide shout" id="nbaap"><div>
+		<h2>Notebooks are a new platform.</h2>
+	</div></section>
+
+	<section class="slide shout" id="for-what"><div>
+		<h2>For what, exactly?</h2>
+	</div></section>
+
+	<section class="slide" id="example"><div>
+		<h2>Consider this scenario</h2>
+    <p>My team of data scientists, developers, and evangelists wants to <strong>increase attendance at IBM meetups</strong>. To get started, we first need to <strong>dabble with the data</strong> available to us. We then need to <strong>document and iterate</strong> on our best ideas for reaching new attendees and measuring our impact. When we've agreed on a first pass, we need to make our insights <strong>accessible</strong> for everyday use. As we improve our approach over time we need to make driving meetup attendance <strong>part of our culture</strong>.</p>
+
+		<style>
+		#example p {
+			color: #777;
+		}
+
+		#example strong {
+			color: black;
+			font-weight: normal;
+		}
+
+		</style>
+	</div></section>
+
+	<section class="slide" id="doodle"><div>
+		<h2>Doodle</h2>
+		<blockquote>We first need to dabble with the data</blockquote>
+		<a href="video.html?rp8r71zx5pwt49objbrtm1nt5vy3d260" target="_blank"><img class="screenshot" src="images/doodle.png" alt="Screenshot of a rough-cut meetup notebook"/> <img class="play" src="images/play.png" alt="Play video icon" /></a>
+		<style>
+			#doodle img.play { 
+				position: absolute;
+				top: 400px;
+				left: 50%;
+				width: 128px;
+				margin-left: -64px;
+			}
+			#doodle img.screenshot {
+				width: 80%;
+				margin: 0 10%;
+			}
+		</style>
+	</div></section>
+
+	<section class="slide" id="document"><div>
+		<h2>Document</h2>
+		<blockquote>We then need to document and iterate on our best ideas</blockquote>
+		<a href="video.html?3ti0ruu7bzhbn9pizdooobxocghh8e2y" target="_blank"><img class="screenshot" src="images/document.png" alt="Screenshot of a clean, well documented meetup notebook"/> <img class="play" src="images/play.png" alt="Play video icon" /></a>
+		<style>
+			#document img.play { 
+				position: absolute;
+				top: 400px;
+				left: 50%;
+				width: 128px;
+				margin-left: -64px;
+			}
+			#document img.screenshot {
+				width: 80%;
+				margin: 0 10%;
+			}
+		</style>
+	</div></section>
+
+	<section class="slide" id="dashboard"><div>
+		<h2>Dashboard</h2>
+		<blockquote>We need to make our insights accessible</blockquote>
+		<a href="video.html?3qsijeudyjuhsshobcjnhc0352a2ea0i" target="_blank"><img class="screenshot" src="images/dashboard.png" alt="Screenshot of a dynamic meetup dashboard produced from a notebook"/>  <img class="play" src="images/play.png" alt="Play video icon" /></a>
+		<style>
+			#dashboard img.play { 
+				position: absolute;
+				top: 400px;
+				left: 50%;
+				width: 128px;
+				margin-left: -64px;
+			}
+			#dashboard img.screenshot {
+				width: 80%;
+				margin: 0 10%;
+			}
+		</style>
+	</div></section>
+
+	<section class="slide" id="discussion"><div>
+		<h2>Discussion</h2>
+		<blockquote>We need to make driving meetup attendance part of our culture</blockquote>
+		<a href="video.html?8r7kjdjklk4ii6d3rqxrwrh18eua26w1" target="_blank"><img class="screenshot" src="images/discussion.png" alt="Screenshot of a Slack bot that responds to meetup queries by supported by functions in a notebook" /> <img class="play" src="images/play.png" alt="Play video icon" /></a>
+		<style>
+			#discussion img.play { 
+				position: absolute;
+				top: 400px;
+				left: 50%;
+				width: 128px;
+				margin-left: -64px;
+			}
+			#discussion img.screenshot {
+				width: 80%;
+				margin: 0 10%;
+			}
+		</style>
+	</div></section>
+
+	<section class="slide" id="details"><div>
+		<h2>Evolution</h2>
+		<img src="images/platform.png" />
+		<style>
+			#details img {
+				width: 100%;
+			}
+		</style>
+		
+	</div></section>
+
+	<section class="slide" id="recap"><div>
+		<h2>Notebooks are a platform</h2>
+		<ul>
+			<li>for ideation, experimentation, evaluation, and collaboration</li>
+			<li>for controlling powerful data analytics stacks</li>
+			<li>for prototyping and delivering <a href="https://en.wikipedia.org/wiki/Principle_of_good_enough" target="_blank">just-good-enough</a> data products</li>
+			<li>for evolving <a href="https://blog.jupyter.org/2015/07/07/project-jupyter-computational-narratives-as-the-engine-of-collaborative-data-science/" target="_blank">computational narratives</a></li>
+			<li>for facilitating the creation of knowledge from data</li>
+	</div></section>
+
+	<section class="slide" id="more"><div>
+		<h2>To learn more</h2>
+		<ul>
+			<li><a href="https://github.com/ibm-et/defrag2015" target="_blank">github.com/ibm-et/defrag2015</a> - Slides, videos, notebooks from this talk</li>
+			<li><a href="https://jupyter.org" target="_blank">jupyter.org</a> - Project Jupyter Homepage</li>
+			<li><a href="http://blog.ibmjstart.net" target="_blank">blog.ibmjstart.net</a> - IBM Cloud Emerging Tech Blog</li>
+			<li><a href="http://spark.tc" target="_blank">spark.tc</a> - Spark Technology Center</li>
+			<li><a href="https://console.ng.bluemix.net/catalog/apache-spark/" target="_blank">bluemix.net/catalog/apache-spark/</a> - Bluemix Data and Analytics</li>
+			<li><a href="https://datascientistworkbench.com/" target="_blank">datascientistworkbench.com</a> - IBM Data Scientist Workbench</li>
+		</ul>
+	</div></section>
+
+	<p class="badge"><a href="https://github.com/shower/shower" target="_blank">Fork me on Github</a></p>
+	<div class="progress"><div></div></div>
+	<script src="shower/shower.min.js"></script>
+</body>
+</html>
